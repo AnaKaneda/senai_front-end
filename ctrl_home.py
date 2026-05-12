@@ -28,18 +28,18 @@ def dashboard(): # função que gerencia rota
     import locale
     locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
     vendas: list = [
-        {"mês": "JANEIRO", "total": 139519.19},
-        {"mês": "FEVEREIRO", "total": 123456.01},
-        {"mês": "MARÇO", "total": 13.09},
-        {"mês": "ABRIL", "total": 909090.01},
-        {"mês": "MAIO", "total": 40028922.01},
-        {"mês": "JUNHO", "total": 422419148.27},
-        {"mês": "JULHO", "total": 10000000.01},
-        {"mês": "AGOSTO", "total": 14567.00},
-        {"mês": "SETEMBRO", "total": 354321.01},
-        {"mês": "OUTUBRO", "total": 56678.01},
-        {"mês": "NOVEMBRO", "total": 414679588.59},
-        {"mês": "DEZEMBRO", "total": 25121999.01},
+        {"mês": "Janeiro", "total": 139519.19},
+        {"mês": "Fevereiro", "total": 123456.01},
+        {"mês": "Março", "total": 13.09},
+        {"mês": "Abril", "total": 909090.01},
+        {"mês": "Maio", "total": 40028922.01},
+        {"mês": "Junho", "total": 422419148.27},
+        {"mês": "Julho", "total": 10000000.01},
+        {"mês": "Agosto", "total": 14567.00},
+        {"mês": "Setembro", "total": 354321.01},
+        {"mês": "Outubro", "total": 56678.01},
+        {"mês": "Novembro", "total": 414679588.59},
+        {"mês": "Dezembro", "total": 25121999.01},
 
     ]# fim lista vendas
 
